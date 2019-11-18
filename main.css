@@ -3,36 +3,66 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    color: darkslategrey;
+    background-color: #00b8ff;
     line-height: 1;
 }
 
 nav {
-    background-color: darkgray;
-    font: #ffffff;
+    background-color: #ffffff;
+    color: #001f2b;
+    font-family: 'Crimson Text', serif;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-
+    height: 20px;
 }
 
 header {
-    background-color: #ffffff;
     padding: 5% 0;
+    
 }
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff;
+}
+
 
 .visual {
     min-height: 100px;
     padding: 10% 0;
-    background-color: darkgray;
+    background-color: #009bd6;
+    font-family: 'Crimson Text', serif;
+    color: #ffffff;
 }
 
 .screen {
     min-height: 100px;
     padding: 10% 0;
-    background-color: lightgray;
+    background-color: #00719c;
+    font-family: 'Crimson Text', serif;
+    color: #ffffff;
+}
+
+.color4 {
+    min-height: 100px;
+    padding: 10% 0;
+    background-color: #00415a;
+    font-family: 'Crimson Text', serif;
+    color: #ffffff;
+}
+
+.color5 {
+    min-height: 100px;
+    padding: 10% 0;
+    background-color: #001f2b;
+    font-family: 'Crimson Text', serif;
+    color: #ffffff;
 }
